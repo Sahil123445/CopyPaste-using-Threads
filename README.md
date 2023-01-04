@@ -6,6 +6,13 @@ The program takes a file as input, stores it in a buffer and uses threads to rea
 
 Usage
 
+Pre-requisite
+
+* This program was made using c99 and using a different version may cause some errors
+* This program was also built with a Linux OS therefore runing the code on Windows may not work.
+
+Running File
+
 To use the file first write a datatext file you would want to copy and recreate, this must be a txt file.  
 To run the file you can simple write the following to lines in terminal : 
 1) cc -Wall -o cpy(name you want to keep for the file while running) copy.c(name of original file) -lpthread 

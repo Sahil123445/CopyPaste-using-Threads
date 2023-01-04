@@ -1,21 +1,11 @@
-/*
-Family Name: Moosa
-Given Name: Sahil
-Student Number: 216744344
-CS Login: Sahilm1
-YorkU email address (the one that appears in eClass): sahilm1@my.yorku.ca
-*/
-
 #include <unistd.h>
 #include <sys/types.h>
-//#include <sys/wait.h>
 #include <pthread.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #define TEN_MILLIS_IN_NANOS 10000000
 
-//#define DEBUG_PRINT printf
 #define DEBUG_PRINT 
 
 FILE *file_in;
